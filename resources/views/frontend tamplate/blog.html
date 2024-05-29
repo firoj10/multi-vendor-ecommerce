@@ -1,0 +1,796 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+    <meta name="csrf-token" content="D911oo8tS0wJniR2QkdmVezHDmWLdqMz6YnCYKp5" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>
+        Sazao || About
+    </title>
+    <link rel="icon" type="image/png" href="http://ftp.mainlaptop.vn/uploads/media_645627dd34272.png">
+    <link rel="stylesheet" href="./taher/all.min.css">
+    <link rel="stylesheet" href="./taher/bootstrap.min.css">
+    <link rel="stylesheet" href="./taher/select2.min.css">
+    <link rel="stylesheet" href="./taher/slick.css">
+    <link rel="stylesheet" href="./taher/jquery.nice-number.min.css">
+    <link rel="stylesheet" href="./taher/jquery.calendar.css">
+    <link rel="stylesheet" href="./taher/add_row_custon.css">
+    <link rel="stylesheet" href="./taher/mobile_menu.css">
+    <link rel="stylesheet" href="./taher/jquery.exzoom.css">
+    <link rel="stylesheet" href="./taher/multiple-image-video.css">
+    <link rel="stylesheet" href="./taher/ranger_style.css">
+    <link rel="stylesheet" href="./taher/jquery.classycountdown.css">
+    <link rel="stylesheet" href="./taher/venobox.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+    <link rel="stylesheet" href="./taher/style.css">
+    <link rel="stylesheet" href="./taher/responsive.css">
+    
+<script type="text/javascript" class="flasher-js">(function() {    var rootScript = 'https://cdn.jsdelivr.net/npm/@flasher/flasher@1.3.1/dist/flasher.min.js';    var FLASHER_FLASH_BAG_PLACE_HOLDER = {};    var options = mergeOptions([], FLASHER_FLASH_BAG_PLACE_HOLDER);    function mergeOptions(first, second) {        return {            context: merge(first.context || {}, second.context || {}),            envelopes: merge(first.envelopes || [], second.envelopes || []),            options: merge(first.options || {}, second.options || {}),            scripts: merge(first.scripts || [], second.scripts || []),            styles: merge(first.styles || [], second.styles || []),        };    }    function merge(first, second) {        if (Array.isArray(first) && Array.isArray(second)) {            return first.concat(second).filter(function(item, index, array) {                return array.indexOf(item) === index;            });        }        return Object.assign({}, first, second);    }    function renderOptions(options) {        if(!window.hasOwnProperty('flasher')) {            console.error('Flasher is not loaded');            return;        }        requestAnimationFrame(function () {            window.flasher.render(options);        });    }    function render(options) {        if ('loading' !== document.readyState) {            renderOptions(options);            return;        }        document.addEventListener('DOMContentLoaded', function() {            renderOptions(options);        });    }    if (1 === document.querySelectorAll('script.flasher-js').length) {        document.addEventListener('flasher:render', function (event) {            render(event.detail);        });    }    if (window.hasOwnProperty('flasher') || !rootScript || document.querySelector('script[src="' + rootScript + '"]')) {        render(options);    } else {        var tag = document.createElement('script');        tag.setAttribute('src', rootScript);        tag.setAttribute('type', 'text/javascript');        tag.onload = function () {            render(options);        };        document.head.appendChild(tag);    }})();</script>
+</head>
+
+<body>
+
+    <!--============================
+        HEADER START
+    ==============================-->
+        <header>
+    <div class="container">
+        <div class="row">
+            <div class="col-2 col-md-1 d-lg-none">
+                <div class="wsus__mobile_menu_area">
+                    <span class="wsus__mobile_menu_icon"><i class="fal fa-bars"></i></span>
+                </div>
+            </div>
+            <div class="col-xl-2 col-7 col-md-8 col-lg-2">
+                <div class="wsus_logo_area">
+                    <a class="wsus__header_logo" href="http://ftp.mainlaptop.vn">
+                        <img src="http://ftp.mainlaptop.vn/uploads/media_645627dd32a77.png" alt="logo" class="img-fluid w-100">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-5 col-md-6 col-lg-4 d-none d-lg-block">
+                <div class="wsus__search">
+                    <form action="http://ftp.mainlaptop.vn/products">
+                        <input type="text" placeholder="Search..." name="search" value="">
+                        <button type="submit"><i class="far fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xl-5 col-3 col-md-3 col-lg-6">
+                <div class="wsus__call_icon_area">
+                    <div class="wsus__call_area">
+                        <div class="wsus__call">
+                            <i class="fas fa-user-headset"></i>
+                        </div>
+                        <div class="wsus__call_text">
+                            <p>contact@sazao.com</p>
+                            <p>+69522145000001</p>
+                        </div>
+                    </div>
+                    <ul class="wsus__icon_area">
+                        <li><a href="http://ftp.mainlaptop.vn/user/wishlist"><i class="fal fa-heart"></i><span id="wishlist_count">
+                                                        0
+                                                    </span></a></li>
+                        
+                        <li><a class="wsus__cart_icon" href="#"><i
+                                    class="fal fa-shopping-bag"></i><span id="cart-count">0</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wsus__mini_cart">
+        <h4>shopping cart <span class="wsus_close_mini_cart"><i class="far fa-times"></i></span></h4>
+        <ul class="mini_cart_wrapper">
+                                        <li class="text-center">Cart Is Empty!</li>
+                    </ul>
+        <div class="mini_cart_actions d-none">
+            <h5>sub total <span id="mini_cart_subtotal">$0</span></h5>
+            <div class="wsus__minicart_btn_area">
+                <a class="common_btn" href="http://ftp.mainlaptop.vn/cart-details">view cart</a>
+                <a class="common_btn" href="http://ftp.mainlaptop.vn/user/checkout">checkout</a>
+            </div>
+        </div>
+    </div>
+
+</header>
+    <!--============================
+        HEADER END
+    ==============================-->
+
+
+    <!--============================
+        MAIN MENU START
+    ==============================-->
+        <nav class="wsus__main_menu d-none d-lg-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="relative_contect d-flex">
+                    <div class="wsus_menu_category_bar">
+                        <i class="far fa-bars"></i>
+                    </div>
+                    <ul class="wsus_menu_cat_item show_home toggle_menu">
+                        
+
+                                                <li><a class="wsus__droap_arrow" href="http://ftp.mainlaptop.vn/products?category=electronics"><i class="fas fa-mobile-alt"></i> Electronics </a>
+                                                            <ul class="wsus_menu_cat_droapdown">
+                                                                            <li><a href="http://ftp.mainlaptop.vn/products?subcategory=camera">Camera <i class="fas fa-angle-right"></i></a>
+                                                                                        <ul class="wsus__sub_category">
+                                                                                                    <li><a href="http://ftp.mainlaptop.vn/products?childcategory=canon">Canon</a> </li>
+                                                                                                    <li><a href="http://ftp.mainlaptop.vn/products?childcategory=dji">DJI</a> </li>
+                                                                                                    <li><a href="http://ftp.mainlaptop.vn/products?childcategory=gopro">GoPro</a> </li>
+                                                                                                    <li><a href="http://ftp.mainlaptop.vn/products?childcategory=pentax">Pentax</a> </li>
+                                                                                            </ul>
+                                                                                    </li>
+                                                                            <li><a href="http://ftp.mainlaptop.vn/products?subcategory=laptops">Laptops <i class="fas fa-angle-right"></i></a>
+                                                                                        <ul class="wsus__sub_category">
+                                                                                                    <li><a href="http://ftp.mainlaptop.vn/products?childcategory=acer">Acer</a> </li>
+                                                                                                    <li><a href="http://ftp.mainlaptop.vn/products?childcategory=asus">ASUS</a> </li>
+                                                                                                    <li><a href="http://ftp.mainlaptop.vn/products?childcategory=lenovo">Lenovo</a> </li>
+                                                                                                    <li><a href="http://ftp.mainlaptop.vn/products?childcategory=msi">MSI</a> </li>
+                                                                                            </ul>
+                                                                                    </li>
+                                                                            <li><a href="http://ftp.mainlaptop.vn/products?subcategory=smart-phones">Smart Phones <i class="fas fa-angle-right"></i></a>
+                                                                                        <ul class="wsus__sub_category">
+                                                                                                    <li><a href="http://ftp.mainlaptop.vn/products?childcategory=google-pixel">Google Pixel</a> </li>
+                                                                                                    <li><a href="http://ftp.mainlaptop.vn/products?childcategory=one-plus">One Plus</a> </li>
+                                                                                                    <li><a href="http://ftp.mainlaptop.vn/products?childcategory=samsung">SAMSUNG</a> </li>
+                                                                                                    <li><a href="http://ftp.mainlaptop.vn/products?childcategory=sony-xperia">Sony Xperia</a> </li>
+                                                                                            </ul>
+                                                                                    </li>
+                                    
+                                </ul>
+                                                    </li>
+                                                <li><a class="" href="http://ftp.mainlaptop.vn/products?category=mens-fashion"><i class="fas fa-tshirt"></i> Mens Fashion </a>
+                                                    </li>
+                                                <li><a class="" href="http://ftp.mainlaptop.vn/products?category=womens-fashion"><i class="fas fa-star"></i> Womens Fashion </a>
+                                                    </li>
+                                                <li><a class="" href="http://ftp.mainlaptop.vn/products?category=shoes"><i class="fas fa-shoe-prints"></i> Shoes </a>
+                                                    </li>
+                                                <li><a class="" href="http://ftp.mainlaptop.vn/products?category=health-and-beauty"><i class="fas fa-hands-helping"></i> Health and Beauty </a>
+                                                    </li>
+                                                <li><a class="" href="http://ftp.mainlaptop.vn/products?category=groceries"><i class="fas fa-layer-group"></i> Groceries </a>
+                                                    </li>
+                                                <li><a class="" href="http://ftp.mainlaptop.vn/products?category=home-and-life"><i class="fas fa-home"></i> Home and Life </a>
+                                                    </li>
+                                                <li><a class="" href="http://ftp.mainlaptop.vn/products?category=sports-and-outdoors"><i class="fab fa-hubspot"></i> Sports and Outdoors </a>
+                                                    </li>
+                                                <li><a class="" href="http://ftp.mainlaptop.vn/products?category=automotive"><i class="fas fa-car-alt"></i> Automotive </a>
+                                                    </li>
+                                                <li><a class="" href="http://ftp.mainlaptop.vn/products?category=babies-and-toys"><i class="fas fa-atom"></i> Babies and Toys </a>
+                                                    </li>
+                        
+                        
+                    </ul>
+
+                    <ul class="wsus__menu_item">
+                        <li><a  class="" href="http://ftp.mainlaptop.vn">home</a></li>
+
+                        <li><a class="" href="http://ftp.mainlaptop.vn/vendor">vendors</a></li>
+                        <li><a class="" href="http://ftp.mainlaptop.vn/flash-sale">flash Sale</a></li>
+                        <li><a class="active" href="http://ftp.mainlaptop.vn/blog">blog</a></li>
+                        <li><a class="" href="http://ftp.mainlaptop.vn/about">about</a></li>
+                        <li><a class="" href="http://ftp.mainlaptop.vn/contact">contact</a></li>
+
+
+                    </ul>
+                    <ul class="wsus__menu_item wsus__menu_item_right">
+                        <li><a href="http://ftp.mainlaptop.vn/product-traking">track order</a></li>
+                                                                        <li><a href="http://ftp.mainlaptop.vn/user/dashboard">my account</a></li>
+                                                                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<section id="wsus__mobile_menu">
+    <span class="wsus__mobile_menu_close"><i class="fal fa-times"></i></span>
+    <ul class="wsus__mobile_menu_header_icon d-inline-flex">
+
+        <li><a href="http://ftp.mainlaptop.vn/user/wishlist"><i class="fal fa-heart"></i><span id="wishlist_count">
+                        0
+                    </span></a></li>
+
+                        <li><a href="http://ftp.mainlaptop.vn/user/dashboard"><i class="fal fa-user"></i></a></li>
+                
+
+    </ul>
+    <form action="http://ftp.mainlaptop.vn/products">
+        <input type="text" placeholder="Search..." name="search" value="">
+        <button type="submit"><i class="far fa-search"></i></button>
+    </form>
+
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                role="tab" aria-controls="pills-home" aria-selected="true">Categories</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                role="tab" aria-controls="pills-profile" aria-selected="false">main menu</button>
+        </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="wsus__mobile_menu_main_menu">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <ul class="wsus_mobile_menu_category">
+                                                <li>
+                            <a href="#" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThreew-0" aria-expanded="false"
+                                aria-controls="flush-collapseThreew-0"><i class="fas fa-mobile-alt"></i> Electronics</a>
+
+                                                            <div id="flush-collapseThreew-0" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                                                                            <li><a href="#">Camera</a></li>
+                                                                                            <li><a href="#">Laptops</a></li>
+                                                                                            <li><a href="#">Smart Phones</a></li>
+                                                                                    </ul>
+                                    </div>
+                                </div>
+                                                    </li>
+                                                <li>
+                            <a href="#" class=" collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThreew-1" aria-expanded="false"
+                                aria-controls="flush-collapseThreew-1"><i class="fas fa-tshirt"></i> Mens Fashion</a>
+
+                                                    </li>
+                                                <li>
+                            <a href="#" class=" collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThreew-2" aria-expanded="false"
+                                aria-controls="flush-collapseThreew-2"><i class="fas fa-star"></i> Womens Fashion</a>
+
+                                                    </li>
+                                                <li>
+                            <a href="#" class=" collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThreew-3" aria-expanded="false"
+                                aria-controls="flush-collapseThreew-3"><i class="fas fa-shoe-prints"></i> Shoes</a>
+
+                                                    </li>
+                                                <li>
+                            <a href="#" class=" collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThreew-4" aria-expanded="false"
+                                aria-controls="flush-collapseThreew-4"><i class="fas fa-hands-helping"></i> Health and Beauty</a>
+
+                                                    </li>
+                                                <li>
+                            <a href="#" class=" collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThreew-5" aria-expanded="false"
+                                aria-controls="flush-collapseThreew-5"><i class="fas fa-layer-group"></i> Groceries</a>
+
+                                                    </li>
+                                                <li>
+                            <a href="#" class=" collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThreew-6" aria-expanded="false"
+                                aria-controls="flush-collapseThreew-6"><i class="fas fa-home"></i> Home and Life</a>
+
+                                                    </li>
+                                                <li>
+                            <a href="#" class=" collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThreew-7" aria-expanded="false"
+                                aria-controls="flush-collapseThreew-7"><i class="fab fa-hubspot"></i> Sports and Outdoors</a>
+
+                                                    </li>
+                                                <li>
+                            <a href="#" class=" collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThreew-8" aria-expanded="false"
+                                aria-controls="flush-collapseThreew-8"><i class="fas fa-car-alt"></i> Automotive</a>
+
+                                                    </li>
+                                                <li>
+                            <a href="#" class=" collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThreew-9" aria-expanded="false"
+                                aria-controls="flush-collapseThreew-9"><i class="fas fa-atom"></i> Babies and Toys</a>
+
+                                                    </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="wsus__mobile_menu_main_menu">
+                <div class="accordion accordion-flush" id="accordionFlushExample2">
+                    <ul>
+                        <li><a href="http://ftp.mainlaptop.vn">home</a></li>
+
+                        <li><a href="http://ftp.mainlaptop.vn/vendor">vendor</a></li>
+
+                        <li><a href="http://ftp.mainlaptop.vn/blog">blog</a></li>
+                        <li><a href="http://ftp.mainlaptop.vn/about">about us</a></li>
+                        <li><a href="http://ftp.mainlaptop.vn/contact">contact</a></li>
+
+
+
+                        <li><a href="http://ftp.mainlaptop.vn/product-traking">track order</a></li>
+                        <li><a href="http://ftp.mainlaptop.vn/flash-sale">flash sale</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--============================
+        MAIN MENU END
+    ==============================-->
+
+
+    <!--==========================
+        POP UP START
+    ===========================-->
+    <!-- <section id="wsus__pop_up">
+        <div class="wsus__pop_up_center">
+            <div class="wsus__pop_up_text">
+                <span id="cross"><i class="fas fa-times"></i></span>
+                <h5>get up to <span>75% off</span></h5>
+                <h2>Sign up to E-SHOP</h2>
+                <p>Subscribe to the <b>E-SHOP</b> market newsletter to receive updates on special offers.</p>
+                <form>
+                    <input type="email" placeholder="Your Email" class="news_input">
+                    <button type="submit" class="common_btn">go</button>
+                    <div class="wsus__pop_up_check_box">
+                    </div>
+                </form>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault11">
+                    <label class="form-check-label" for="flexCheckDefault11">
+                        Don't show this popup again
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--==========================
+        POP UP END
+    ===========================-->
+
+    <!--============================
+        Main Content Start
+    ==============================-->
+        
+    <!--============================
+        BREADCRUMB START
+    ==============================-->
+    <section id="wsus__breadcrumb">
+        <div class="wsus_breadcrumb_overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h4>our latest blogs</h4>
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">blogs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================
+        BREADCRUMB END
+    ==============================-->
+
+
+    <!--============================
+        BLOGS PAGE START
+    ==============================-->
+    <section id="wsus__blogs">
+        <div class="container">
+                       <div class="row">
+                                <div class="col-xl-3">
+                    <div class="wsus__single_blog wsus__single_blog_2">
+                        <a class="wsus__blog_img" href="http://ftp.mainlaptop.vn/blog-details/what-is-and-how-does-indirect-marketing-work">
+                            <img src="http://ftp.mainlaptop.vn/uploads/media_64587ced73085.jpg" alt="blog" class="img-fluid w-100">
+                        </a>
+                        <div class="wsus__blog_text">
+                            <a class="blog_top red" href="#">Lifestyle</a>
+                            <div class="wsus__blog_text_center">
+                                <a href="http://ftp.mainlaptop.vn/blog-details/what-is-and-how-does-indirect-marketing-work">What is and how does indirect marketing work?</a>
+                                <p class="date">May Mon 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-xl-3">
+                    <div class="wsus__single_blog wsus__single_blog_2">
+                        <a class="wsus__blog_img" href="http://ftp.mainlaptop.vn/blog-details/unlocking-the-power-of-positive-thinking">
+                            <img src="http://ftp.mainlaptop.vn/uploads/media_64587cc105e2e.jpg" alt="blog" class="img-fluid w-100">
+                        </a>
+                        <div class="wsus__blog_text">
+                            <a class="blog_top red" href="#">Fashion</a>
+                            <div class="wsus__blog_text_center">
+                                <a href="http://ftp.mainlaptop.vn/blog-details/unlocking-the-power-of-positive-thinking">Unlocking the Power of Positive Thinking</a>
+                                <p class="date">May Mon 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-xl-3">
+                    <div class="wsus__single_blog wsus__single_blog_2">
+                        <a class="wsus__blog_img" href="http://ftp.mainlaptop.vn/blog-details/search-engine-optimization-for-grow-your-site">
+                            <img src="http://ftp.mainlaptop.vn/uploads/media_64587ca20b665.jpg" alt="blog" class="img-fluid w-100">
+                        </a>
+                        <div class="wsus__blog_text">
+                            <a class="blog_top red" href="#">Entertainment</a>
+                            <div class="wsus__blog_text_center">
+                                <a href="http://ftp.mainlaptop.vn/blog-details/search-engine-optimization-for-grow-your-site">Search Engine Optimization For Grow your site</a>
+                                <p class="date">May Mon 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-xl-3">
+                    <div class="wsus__single_blog wsus__single_blog_2">
+                        <a class="wsus__blog_img" href="http://ftp.mainlaptop.vn/blog-details/5-eco-friendly-products-that-help-save-the-planet">
+                            <img src="http://ftp.mainlaptop.vn/uploads/media_64522c73b811d.jpg" alt="blog" class="img-fluid w-100">
+                        </a>
+                        <div class="wsus__blog_text">
+                            <a class="blog_top red" href="#">Clothes</a>
+                            <div class="wsus__blog_text_center">
+                                <a href="http://ftp.mainlaptop.vn/blog-details/5-eco-friendly-products-that-help-save-the-planet">5 Eco-Friendly Products That Help Save the Pl...</a>
+                                <p class="date">May Wed 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+                        <div id="pagination">
+                <div class="mt-5">
+                                    </div>
+            </div>
+        </div>
+    </section>
+    <!--============================
+        BLOGS PAGE END
+    ==============================-->
+    <!--============================
+       Main Content End
+    ==============================-->
+
+
+    <!--============================
+        FOOTER PART START
+    ==============================-->
+        <footer class="footer_2">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-xl-3 col-sm-7 col-md-6 col-lg-3">
+                <div class="wsus__footer_content">
+                    <a class="wsus__footer_2_logo" href="http://ftp.mainlaptop.vn">
+                        <img src="http://ftp.mainlaptop.vn/uploads/media_644910333bb80.png" alt="logo">
+                    </a>
+                    <a class="action" href="callto:+1 (156) 145-4818"><i class="fas fa-phone-alt"></i>+1 (156) 145-4818</a>
+                    <a class="action" href="mailto:daveqab@mailinator.com"><i class="far fa-envelope"></i>daveqab@mailinator.com</a>
+                    <p><i class="fal fa-map-marker-alt"></i> San Francisco City Hall, San Francisco, CA</p>
+                    <ul class="wsus__footer_social">
+                                                <li><a class="behance" href="https://www.skillshare.com/en/classes/Inspiration-To-Reality-Make-A-Vision-Board-For-Your-Goals/783727951"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a class="behance" href="https://www.skillshare.com/en/classes/Inspiration-To-Reality-Make-A-Vision-Board-For-Your-Goals/783727951"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a class="behance" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                                                <li><a class="behance" href="https://www.linkedin.com/"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-sm-5 col-md-4 col-lg-2">
+                <div class="wsus__footer_content">
+                    <h5>More Links</h5>
+                    <ul class="wsus__footer_menu">
+                                                    <li><a href="https://www.skillshare.com/en/classes/Inspiration-To-Reality-Make-A-Vision-Board-For-Your-Goals/783727951"><i class="fas fa-caret-right"></i> About</a></li>
+                                                    <li><a href="http://ecommerce.test/terms-and-conditions"><i class="fas fa-caret-right"></i> Terms andconditions</a></li>
+                                                    <li><a href="http://ecommerce.test/contact"><i class="fas fa-caret-right"></i> contact</a></li>
+                                                    <li><a href="http://ecommerce.test/flash-sale"><i class="fas fa-caret-right"></i> Flash Sale</a></li>
+                                                    <li><a href="https://www.linkedin.com/"><i class="fas fa-caret-right"></i> Career</a></li>
+                                            </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-sm-5 col-md-4 col-lg-2">
+                <div class="wsus__footer_content">
+                    <h5>Help Links</h5>
+                    <ul class="wsus__footer_menu">
+                                                    <li><a href="https://www.skillshare.com/en/classes/Inspiration-To-Reality-Make-A-Vision-Board-For-Your-Goals/783727951"><i class="fas fa-caret-right"></i> Contact</a></li>
+                                                    <li><a href="https://www.linkedin.com/"><i class="fas fa-caret-right"></i> Team Member</a></li>
+                                                    <li><a href="https://www.linkedin.com/"><i class="fas fa-caret-right"></i> Order History</a></li>
+                                                    <li><a href="https://www.linkedin.com/"><i class="fas fa-caret-right"></i> Affilate</a></li>
+                                                    <li><a href="https://www.linkedin.com/"><i class="fas fa-caret-right"></i> Team Member</a></li>
+                                            </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-sm-7 col-md-8 col-lg-5">
+                <div class="wsus__footer_content wsus__footer_content_2">
+                    <h3>Subscribe To Our Newsletter</h3>
+                    <p>Get all the latest information on Events, Sales and Offers.
+                        Get all the latest information on Events.</p>
+                    <form action="" method="POST" id="newsletter">
+                        <input type="hidden" name="_token" value="D911oo8tS0wJniR2QkdmVezHDmWLdqMz6YnCYKp5">                        <input type="text" placeholder="Email" name="email" class="newsletter_email">
+                        <button type="submit" class="common_btn subscribe_btn">subscribe</button>
+                    </form>
+                    <div class="footer_payment">
+                        <p>We're using safe payment for :</p>
+                        <img src="http://ftp.mainlaptop.vn/frontend/images/credit2.png" alt="card" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wsus__footer_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="wsus__copyright d-flex justify-content-center">
+                        <p>Copyright © 2021 Sazao shop. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!--============================
+        FOOTER PART END
+    ==============================-->
+
+
+    <!--============================
+        SCROLL BUTTON START
+    ==============================-->
+    <div class="wsus__scroll_btn">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <!--============================
+        SCROLL BUTTON  END
+    ==============================-->
+
+
+    <!--jquery library js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/jquery-3.6.0.min.js"></script>
+    <!--bootstrap js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/bootstrap.bundle.min.js"></script>
+    <!--font-awesome js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/Font-Awesome.js"></script>
+    <!--select2 js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/select2.min.js"></script>
+    <!--slick slider js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/slick.min.js"></script>
+    <!--simplyCountdown js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/simplyCountdown.js"></script>
+    <!--product zoomer js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/jquery.exzoom.js"></script>
+    <!--nice-number js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/jquery.nice-number.min.js"></script>
+    <!--counter js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/jquery.waypoints.min.js"></script>
+    <script src="http://ftp.mainlaptop.vn/frontend/js/jquery.countup.min.js"></script>
+    <!--add row js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/add_row_custon.js"></script>
+    <!--multiple-image-video js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/multiple-image-video.js"></script>
+    <!--sticky sidebar js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/sticky_sidebar.js"></script>
+    <!--price ranger js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/ranger_jquery-ui.min.js"></script>
+    <script src="http://ftp.mainlaptop.vn/frontend/js/ranger_slider.js"></script>
+    <!--isotope js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/isotope.pkgd.min.js"></script>
+    <!--venobox js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/venobox.min.js"></script>
+    <!--Toaster js-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <!--Sweetalert js-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--classycountdown js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/jquery.classycountdown.js"></script>
+
+
+    <!--main/custom js-->
+    <script src="http://ftp.mainlaptop.vn/frontend/js/main.js"></script>
+
+    <script>
+            </script>
+    <script>
+        $(document).ready(function(){
+            $('.auto_click').click();
+        })
+    </script>
+    <script>
+    $(document).ready(function() {
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+
+        // add product into cart
+        $('.shopping-cart-form').on('submit', function(e) {
+            e.preventDefault();
+            let formData = $(this).serialize();
+
+            $.ajax({
+                method: 'POST',
+                data: formData,
+                url: "http://ftp.mainlaptop.vn/add-to-cart",
+                success: function(data) {
+                    if(data.status === 'success'){
+                        getCartCount()
+                        fetchSidebarCartProducts()
+                        $('.mini_cart_actions').removeClass('d-none');
+                        toastr.success(data.message);
+                    }else if (data.status === 'error'){
+                        toastr.error(data.message);
+                    }
+                },
+                error: function(data) {
+
+                }
+            })
+        })
+
+        function getCartCount() {
+            $.ajax({
+                method: 'GET',
+                url: "http://ftp.mainlaptop.vn/cart-count",
+                success: function(data) {
+                    $('#cart-count').text(data);
+                },
+                error: function(data) {
+
+                }
+            })
+        }
+
+        function fetchSidebarCartProducts() {
+            $.ajax({
+                method: 'GET',
+                url: "http://ftp.mainlaptop.vn/cart-products",
+                success: function(data) {
+                    console.log(data);
+                    $('.mini_cart_wrapper').html("");
+                    var html = '';
+                    for (let item in data) {
+                        let product = data[item];
+                        html += `
+                        <li id="mini_cart_${product.rowId}">
+                            <div class="wsus__cart_img">
+                                <a href="http://ftp.mainlaptop.vn/product-detail/${product.options.slug}"><img src="http://ftp.mainlaptop.vn/${product.options.image}" alt="product" class="img-fluid w-100"></a>
+                                <a class="wsis__del_icon remove_sidebar_product" data-id="${product.rowId}" href=""><i class="fas fa-minus-circle"></i></a>
+                            </div>
+                            <div class="wsus__cart_text">
+                                <a class="wsus__cart_title" href="http://ftp.mainlaptop.vn/product-detail/${product.options.slug}">${product.name}</a>
+                                <p>$${product.price}</p>
+                                <small>Variants total: $${product.options.variants_total}</small>
+                                <br>
+                                <small>Qty: ${product.qty}</small>
+                            </div>
+                        </li>`
+                    }
+
+                    $('.mini_cart_wrapper').html(html);
+
+                    getSidebarCartSubtoal();
+
+                },
+                error: function(data) {
+
+                }
+            })
+        }
+
+        // reomove product from sidebar cart
+        $('body').on('click', '.remove_sidebar_product', function(e) {
+            e.preventDefault()
+            let rowId = $(this).data('id');
+            $.ajax({
+                method: 'POST',
+                url: "http://ftp.mainlaptop.vn/cart/remove-sidebar-product",
+                data: {
+                    rowId: rowId
+                },
+                success: function(data) {
+                    let productId = '#mini_cart_' + rowId;
+                    $(productId).remove()
+
+                    getSidebarCartSubtoal()
+
+                    if ($('.mini_cart_wrapper').find('li').length === 0) {
+                        $('.mini_cart_actions').addClass('d-none');
+                        $('.mini_cart_wrapper').html(
+                            '<li class="text-center">Cart Is Empty!</li>');
+                    }
+                    toastr.success(data.message)
+                },
+                error: function(data) {
+                    console.log(data);
+                }
+            })
+        })
+
+        // get sidebar cart sub total
+        function getSidebarCartSubtoal() {
+            $.ajax({
+                method: 'GET',
+                url: "http://ftp.mainlaptop.vn/cart/sidebar-product-total",
+                success: function(data) {
+                    $('#mini_cart_subtotal').text("$" + data);
+                },
+                error: function(data) {
+
+                }
+            })
+        }
+
+        // add product to wishlist
+        $('.add_to_wishlist').on('click', function(e){
+            e.preventDefault();
+            let id = $(this).data('id');
+
+            $.ajax({
+                method: 'GET',
+                url: "http://ftp.mainlaptop.vn/user/wishlist/add-product",
+                data: {id:id},
+                success:function(data){
+                    if(data.status === 'success'){
+                        $('#wishlist_count').text(data.count)
+                        toastr.success(data.message);
+                    }else if(data.status === 'error'){
+                        toastr.error(data.message);
+                    }
+                },
+                error: function(data){
+                    console.log(data);
+                }
+            })
+        })
+
+        // newsletter
+        $('#newsletter').on('submit', function(e){
+            e.preventDefault();
+            let data = $(this).serialize();
+
+            $.ajax({
+                method: 'POST',
+                url: "http://ftp.mainlaptop.vn/newsletter-request",
+                data: data,
+                beforeSend: function(){
+                    $('.subscribe_btn').text('Loading...');
+                },
+                success: function(data){
+                    if(data.status === 'success'){
+                        $('.subscribe_btn').text('Subscribe');
+                        $('.newsletter_email').val('');
+                        toastr.success(data.message);
+
+                    }else if(data.status === 'error'){
+
+                        $('.subscribe_btn').text('Subscribe');
+                        toastr.error(data.message);
+                    }
+                },
+                error: function(data){
+                    let errors = data.responseJSON.errors;
+                    if(errors){
+                        $.each(errors, function(key, value){
+                            toastr.error(value);
+                        })
+                    }
+                    $('.subscribe_btn').text('Subscribe');
+                }
+            })
+        })
+
+
+    })
+</script>
+    </body>
+
+</html>

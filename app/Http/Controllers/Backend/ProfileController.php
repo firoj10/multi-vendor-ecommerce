@@ -38,7 +38,7 @@ class ProfileController extends Controller
        toastr()->success('Profile Update successfully!');
        return redirect()->back();
     }
-    public function updatePassword(Request $request){
+ public function updatePassword(Request $request){
 // dd($request->all());
 $request->validate([
     'current_password' => ['required', 'current_password'],
